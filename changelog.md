@@ -56,6 +56,7 @@ _Nothing Yet_
 **Added:**
 - bpk-tokens: 26.3.0 => 26.4.0
   - iOS & Android border size tokens
+  - iOS & Android animation duration tokens
   - Android elevation tokens
   - iOS touchable highlight underlay tokens
   - iOS shadow tokens
@@ -64,6 +65,9 @@ _Nothing Yet_
 
 - react-native-bpk-component-button: 3.0.5 => 3.1.0
   - Primary and secondary buttons can now be themed.
+
+- react-native-bpk-component-animate-height:
+  - New component `BpkAnimateHeight`. See http://backpack.prod.aws.skyscnr.com/components/native/animate-height/
 
 **Fixed:**
 - bpk-tokens: 26.3.0 => 26.4.0
