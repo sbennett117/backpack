@@ -45,11 +45,6 @@ class BpkAnimateHeight extends React.Component {
       heightSet: false,
     };
 
-    // overflow: hidden is not properly supported on Android,
-    // which causes animation to look shoddy.
-    // See https://facebook.github.io/react-native/releases/0.49/docs/layout-props.html#overflow
-    this.animationDuration = Platform.OS === 'ios' ? animationDurationBase : 0;
-
     this.componentWillReceiveProps = this.componentWillReceiveProps.bind(this);
     this.setExpandedHeight = this.setExpandedHeight.bind(this);
     this.resize = this.resize.bind(this);
@@ -74,13 +69,18 @@ class BpkAnimateHeight extends React.Component {
   }
 
   resize() {
+    // overflow: hidden is not properly supported on Android,
+    // which causes animation to look shoddy.
+    // See https://facebook.github.io/react-native/releases/0.49/docs/layout-props.html#overflow
+    const animationDuration = Platform.OS === 'ios' ? this.props.animationDuration : 0;
+
     const finalValue = this.state.expanded ? this.state.expandedHeight : this.state.collapsedHeight;
 
     Animated.timing(
       this.state.height,
       {
         toValue: finalValue,
-        duration: this.animationDuration,
+        duration: animationDuration,
       },
       ).start();
   }
@@ -110,12 +110,14 @@ class BpkAnimateHeight extends React.Component {
 }
 
 BpkAnimateHeight.propTypes = {
+  animationDuration: PropTypes.number.isRequired,
   expanded: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired,
   style: View.propTypes.style,
 };
 
 BpkAnimateHeight.defaultProps = {
+  animationDuration: parseInt(animationDurationBase, 10),
   style: null,
 };
 

@@ -66,7 +66,8 @@ export default class App extends Component {
 
 ## Props
 
-| Property  | PropType  | Required | Default Value |
-| --------- | --------- | -------- | ------------- |
-| expanded  | bool      | Yes      | -             |
-| children  | Node      | Yes      | -             |
+| Property          | PropType  | Required | Default Value  |
+| ----------------- | --------- | -------- | -------------- |
+| children          | Node      | Yes      | -              |
+| expanded          | bool      | Yes      | -              |
+| animationDuration | number    | No       | 400            |
