@@ -23,12 +23,11 @@ exports[`Android BpkAnimateHeight should render correctly collapsed 1`] = `
         Array [
           Object {
             "color": "rgb(82, 76, 97)",
-            "fontFamily": "sans-serif-medium",
-            "fontSize": 14,
-            "fontWeight": undefined,
+            "fontFamily": "sans-serif",
+            "fontSize": 16,
+            "fontWeight": "400",
             "lineHeight": 24,
           },
-          false,
           Object {},
         ]
       }
@@ -62,12 +61,11 @@ exports[`Android BpkAnimateHeight should render correctly expanded 1`] = `
         Array [
           Object {
             "color": "rgb(82, 76, 97)",
-            "fontFamily": "sans-serif-medium",
-            "fontSize": 14,
-            "fontWeight": undefined,
+            "fontFamily": "sans-serif",
+            "fontSize": 16,
+            "fontWeight": "400",
             "lineHeight": 24,
           },
-          false,
           Object {},
         ]
       }
@@ -101,12 +99,11 @@ exports[`Android BpkAnimateHeight should render correctly with n children 1`] = 
         Array [
           Object {
             "color": "rgb(82, 76, 97)",
-            "fontFamily": "sans-serif-medium",
-            "fontSize": 14,
-            "fontWeight": undefined,
+            "fontFamily": "sans-serif",
+            "fontSize": 16,
+            "fontWeight": "400",
             "lineHeight": 24,
           },
-          false,
           Object {},
         ]
       }
@@ -122,12 +119,11 @@ exports[`Android BpkAnimateHeight should render correctly with n children 1`] = 
         Array [
           Object {
             "color": "rgb(82, 76, 97)",
-            "fontFamily": "sans-serif-medium",
-            "fontSize": 14,
-            "fontWeight": undefined,
+            "fontFamily": "sans-serif",
+            "fontSize": 16,
+            "fontWeight": "400",
             "lineHeight": 24,
           },
-          false,
           Object {},
         ]
       }
@@ -162,12 +158,11 @@ exports[`Android BpkAnimateHeight should render correctly with user styling padd
         Array [
           Object {
             "color": "rgb(82, 76, 97)",
-            "fontFamily": "sans-serif-medium",
-            "fontSize": 14,
-            "fontWeight": undefined,
+            "fontFamily": "sans-serif",
+            "fontSize": 16,
+            "fontWeight": "400",
             "lineHeight": 24,
           },
-          false,
           Object {},
         ]
       }

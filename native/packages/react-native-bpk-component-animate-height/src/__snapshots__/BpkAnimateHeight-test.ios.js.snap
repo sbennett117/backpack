@@ -28,7 +28,6 @@ exports[`iOS BpkAnimateHeight should render correctly collapsed 1`] = `
             "fontWeight": "400",
             "lineHeight": 20,
           },
-          false,
           Object {},
         ]
       }
@@ -67,7 +66,6 @@ exports[`iOS BpkAnimateHeight should render correctly expanded 1`] = `
             "fontWeight": "400",
             "lineHeight": 20,
           },
-          false,
           Object {},
         ]
       }
@@ -106,7 +104,6 @@ exports[`iOS BpkAnimateHeight should render correctly with n children 1`] = `
             "fontWeight": "400",
             "lineHeight": 20,
           },
-          false,
           Object {},
         ]
       }
@@ -127,7 +124,6 @@ exports[`iOS BpkAnimateHeight should render correctly with n children 1`] = `
             "fontWeight": "400",
             "lineHeight": 20,
           },
-          false,
           Object {},
         ]
       }
@@ -167,7 +163,6 @@ exports[`iOS BpkAnimateHeight should render correctly with user styling padding 
             "fontWeight": "400",
             "lineHeight": 20,
           },
-          false,
           Object {},
         ]
       }
