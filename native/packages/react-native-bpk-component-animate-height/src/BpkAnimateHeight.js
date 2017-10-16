@@ -30,7 +30,7 @@ const tokens = Platform.select({
 })();
 
 const {
-  animationDurationBase,
+  animationDurationSm,
 } = tokens;
 
 class BpkAnimateHeight extends React.Component {
@@ -117,7 +117,7 @@ BpkAnimateHeight.propTypes = {
 };
 
 BpkAnimateHeight.defaultProps = {
-  animationDuration: parseInt(animationDurationBase, 10),
+  animationDuration: parseInt(animationDurationSm, 10),
   style: null,
 };
 
